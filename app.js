@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numLim = 3;
+let numLim = 100;
 function gerarNumeroAleatoriio() {
     let numEscolhido = parseInt(Math.random()*numLim+1);
     if (listaDeNumerosSorteados.length == numLim){
